@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ralph's Coffee - Sophisticated Hospitality CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700;900&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --ralph-green: #004438; 
+            --ralph-cream: #fdfcf8;
+            --ralph-gold: #c5a059;
+            --text-main: #1a1a1a;
+            --text-muted: #4a4a4a;
+        }
 
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body { 
+            font-family: 'Inter', sans-serif; 
+            line-height: 1.7; 
+            color: var(--text-main); 
+            background-color: #f4f4f4; 
+            padding: 80px 20px;
+        }
+
+        .container { 
+            max-width: 850px; 
+            margin: 0 auto; 
+            background: white;
+            padding: 60px 80px; /* Wide margins for luxury feel */
+            border: 1px solid #ddd;
+        }
+
+        header { 
+            margin-bottom: 60px; 
+            text-align: center;
+        }
+
+        h1 { 
+            font-family: 'Playfair Display', serif;
+            font-size: 3.2rem; 
+            font-weight: 900; 
+            color: var(--ralph-green); 
+            letter-spacing: -0.01em; 
+            line-height: 1;
+            text-transform: uppercase;
+        }
+
+        .tagline { 
+            font-family: 'Libre Baskerville', serif;
+            font-size: 0.85rem; 
+            color: var(--ralph-gold); 
+            font-weight: 400; 
+            text-transform: uppercase; 
+            letter-spacing: 0.3em; 
+            margin-top: 20px;
+            font-style: italic;
+        }
+
+        .contact { 
+            font-family: 'Libre Baskerville', serif;
+            font-size: 0.7rem; 
+            color: var(--text-muted); 
+            margin-top: 25px; 
+            display: flex; 
+            justify-content: center;
+            gap: 30px; 
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        h2 { 
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem; 
+            text-transform: uppercase; 
+            letter-spacing: 0.25em; 
+            color: white; 
+            background-color: var(--ralph-green);
+            margin: 50px 0 30px; 
+            padding: 10px 20px;
+            font-weight: 700; 
+            display: inline-block;
+        }
+        
+        .philosophy { 
+            font-family: 'Libre Baskerville', serif;
+            font-size: 1.2rem; 
+            color: var(--ralph-green); 
+            font-weight: 400; 
+            line-height: 1.6; 
+            margin-bottom: 20px; 
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .exp-item { margin-bottom: 45px; }
+        .exp-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px; }
+        .company { font-family: 'Playfair Display', serif; font-weight: 700; color: var(--ralph-green); font-size: 1.3rem; }
+        .date { font-family: 'Libre Baskerville', serif; color: var(--ralph-gold); font-size: 0.75rem; font-weight: 700; }
+        .role { color: var(--text-main); font-weight: 600; font-size: 0.9rem; margin-bottom: 15px; display: block; text-transform: uppercase; letter-spacing: 0.05em; }
+
+        ul { list-style-type: none; color: var(--text-muted); font-size: 0.95rem; }
+        li { margin-bottom: 12px; line-height: 1.5; }
+        li strong { color: var(--ralph-green); font-family: 'Libre Baskerville', serif; font-style: italic; font-weight: 700; }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            font-size: 0.85rem;
+            margin-top: 20px;
+        }
+
+        .skill-cat h3 { font-size: 0.7rem; text-transform: uppercase; margin-bottom: 12px; color: var(--ralph-gold); letter-spacing: 0.15em; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+        .skill-cat p { color: var(--ralph-green); line-height: 1.8; font-family: 'Libre Baskerville', serif; }
+
+        @media print {
+            body { padding: 0; background-color: white; }
+            .container { box-shadow: none; border: none; max-width: 100%; padding: 40px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>[YOUR NAME]</h1>
+        <p class="tagline">The Art of the Guest Experience</p>
+        <div class="contact">
+            <span>[Phone Number]</span>
+            <span>[Email Address]</span>
+            <span>New York, NY</span>
+        </div>
+    </header>
+
+    <section style="border-bottom: 1px solid #eee; padding-bottom: 40px;">
+        <p class="philosophy">
+            "A commitment to timeless style and the warmth of a neighborhood welcome."
+        </p>
+        <p style="text-align: center; font-size: 0.9rem; color: var(--text-muted); font-style: italic;">
+            Leveraging a record across the luxury industry to facilitate a sophisticated atmosphere where heritage meets hospitality.
+        </p>
+    </section>
+
+    <section>
+        <h2>The Experience</h2>
+        
+        <div class="exp-item">
+            <div class="exp-header">
+                <span class="company">Manhattan Heritage Club</span>
+                <span class="date">2023 — PRESENT</span>
+            </div>
+            <span class="role">Lead Hospitality Ambassador</span>
+            <ul>
+                <li><strong>Visual Excellence:</strong> Directed daily aesthetic standards, utilizing a detailed eye to ensure the environment remained a seamless extension of the brand’s visual identity.</li>
+                <li><strong>Guest Stewardship:</strong> Facilitated a high-touch "Clienteling" model, leveraging detailed personal preferences to build lasting community loyalty.</li>
+                <li><strong>Operational Grace:</strong> Spearheaded front-of-house flow during high-profile events, utilizing the ability to maintain composure and sophistication in a fast-paced industry environment.</li>
+            </ul>
+        </div>
+
+        <div class="exp-item">
+            <div class="exp-header">
+                <span class="company">Artisan Beverage House</span>
+                <span class="date">2020 — 2023</span>
+            </div>
+            <span class="role">Senior Service Specialist</span>
+            <ul>
+                <li><strong>Craft Mastery:</strong> Innovated drink presentation standards that utilized classic techniques, delivering an extensive product experience to a discerning clientele.</li>
+                <li><strong>Cultural Leadership:</strong> Spearheaded staff immersion programs, ensuring every team member could speak to the brand’s history with authentic passion and detailed knowledge.</li>
+                <li><strong>Atmospheric Management:</strong> Directed the "theater of the cafe," ensuring that lighting, music, and service pace combined to create a world-class respite.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Core Disciplines</h2>
+        <div class="skills-grid">
+            <div class="skill-cat">
+                <h3>Aesthetic</h3>
+                <p>Visual Merchandising, Floral & Table Setting, Brand Storytelling, Heritage Stewardship.</p>
+            </div>
+            <div class="skill-cat">
+                <h3>Hospitality</h3>
+                <p>Luxury Clienteling, VIP Protocol, Concierge-Level Service, Extensive Guest Recovery.</p>
+            </div>
+            <div class="skill-cat">
+                <h3>Operations</h3>
+                <p>Team Mentorship, Quality Facilitation, Inventory Precision, Industry Relations.</p>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>
